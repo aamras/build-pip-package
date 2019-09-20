@@ -8,7 +8,8 @@ Prerequisites:
 
 Instructions:
 1. Make a folder(this will contain the file(s) that you want to upload on PyPI)
-2. Add the follwing files in that folder:
+2. Add the following files in that folder (small tip- use a good text editor like Sublime Text for creating a few of these files):
+
    a) program.py (the main code)
    
    b) README.md (include information about the project)
