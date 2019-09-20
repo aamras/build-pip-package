@@ -10,7 +10,9 @@ Instructions:
 1. Make a folder(this will contain the file(s) that you want to upload on PyPI)
 2. Add the follwing files in that folder:
    a) program.py (the main code)
+   
    b) README.md (include information about the project)
+   
    c) setup.py (add the following lines in the file):
       import setuptools
       with open("README.md", "r") as fh:
@@ -43,6 +45,7 @@ Instructions:
       The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF       MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE       FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR CONNECTION       WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   
    e) .pypirc:
       [distutils] 
       index-servers=pypi
