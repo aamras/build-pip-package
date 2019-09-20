@@ -17,22 +17,23 @@ Instructions:
         long_description = fh.read()
       setuptools.setup
       (
-        name='dokr',  
-        version='0.1',
-        scripts=['dokr'] ,
-        author="Deepak Kumar",
-        author_email="deepak.kumar.iet@gmail.com",
-        description="A Docker and AWS utility package",
+        name="project_name-your_username",
+        version="0.0.1",
+        author="Author Name",
+        author_email="author's email address",
+        description="Project description",
         long_description=long_description,
         long_description_content_type="text/markdown",
-        url="https://github.com/javatechy/dokr",
+        url="https://github.com/username/projectname",
         packages=setuptools.find_packages(),
         classifiers=[
-          "Programming Language :: Python :: 3",
-          "License :: OSI Approved :: MIT License",
-          "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
         ],
+        python_requires='>=3.6',
       )
+      
    d) LICENSE (if required):
       eg.
       Copyright (c) 2019 The Python Packaging Authority
